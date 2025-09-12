@@ -31,7 +31,7 @@ void GUI_RFID_Test::init()
     _canvas->fillSmoothRoundRect(bubble.x - bubble.width / 2, bubble.y - bubble.height / 2, bubble.width, bubble.height, 36, TFT_WHITE);
     
     _canvas->setTextColor(_theme_color);
-    _canvas->drawCenterString("RFID TEST", bubble.x, bubble.y - 55);
+    _canvas->drawCenterString("RFID TEST :)", bubble.x, bubble.y - 55);
     _canvas->drawCenterString("Place Your RFID", bubble.x, bubble.y - 12);
     _canvas->drawCenterString("Card Above Screen", bubble.x, bubble.y + 14);
     _canvas->drawCenterString("To Read", bubble.x, bubble.y + 14 + 26);
